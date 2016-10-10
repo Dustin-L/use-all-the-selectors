@@ -38,11 +38,11 @@ html mark {
   background-color: #2694d8;
 }
 
-.favs ol li:first-child {
+#favs ol > li:nth-child(1) {
   color: #719e47;
 }
 
-.favs ol li:last-child {
+#favs ol > li:nth-child(2) {
   color: #2aa198;
 }
 
